@@ -3,7 +3,6 @@ function initialize() {
   var mapOptions = {
     zoom: 14,
     center: new google.maps.LatLng(51.464,-2.198),
-    pancontrol: true,
 	mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   venueMap = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
