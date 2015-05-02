@@ -1,7 +1,7 @@
 var venueMap;
 function initialize() {
   var mapOptions = {
-    zoom: 16,
+    zoom: 14,
     center: new google.maps.LatLng(51.464,-2.198),
     pancontrol: true,
 	mapTypeId: google.maps.MapTypeId.ROADMAP
